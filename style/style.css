@@ -3,6 +3,7 @@ body {
     margin-right: 10px;
     margin-top: 0px;
     margin-bottom: 10px;
+    background-color: #e8e6e6;
 }
 .parpadding {
     font-family: 'Archivo Narrow', sans-serif;
@@ -19,4 +20,58 @@ body {
 
 .centering {
     text-align: center;
+}
+
+.move1{
+    margin-top: 36%;
+}
+
+#vresize2
+
+/* Planet Hulk*/
+    {
+    width: 800px;
+    height: 440px;
+    padding-left: 10px;
+    float: right;
+}
+
+#vresize3
+
+/* Next Avengers: Heroes of Tomorrow*/
+    {
+    width: 800px;
+    height: 420px;
+    padding-left: 10px;
+    float: right;
+}
+
+#vresize4
+
+/*Batman Beyond: Return of the Joker*/
+    {
+    width: 800px;
+    height: 440px;
+    padding-left: 10px;
+    float: right;
+}
+
+#vresize5
+
+/*Teen Titans: Trouble in Tokyo*/
+    {
+    width: 800px;
+    height: 440px;
+    padding-left: 10px;
+    float: right;
+}
+
+#vresize6
+
+/*Justice League: The Flashpoint Paradox*/
+    {
+    width: 800px;
+    height: 440px;
+    padding-left: 10px;
+    float: right;
 }
