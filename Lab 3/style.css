@@ -1,7 +1,11 @@
+:root{
+    --grey:grey;
+}
+
 form{
-    width: 500px;
+    width: 900px;
     margin: 0px auto;
-    background-color: gray;
+    background-color: lightblue;
 }
 
 h1, h3{
@@ -13,9 +17,40 @@ input{
 }
 
 #formCenter{
-    margin-left: 30%;
+    margin-left: 20%;
 }
 
 h1{
     font-size: 2rem;
+}
+
+#tipPercentage{
+    background-color:var(--grey);
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#tipAmount{
+ background-color: var(--grey);
+}
+
+#billTotalWithTip{
+    background-color: var(--grey);
+}
+
+#billLabel{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+#billTotal{
+    margin-right: 3%;
+}
+
+#tip{
+    margin-right: 7%;
+}
+
+#range{
+    width:26.5%;
 }
