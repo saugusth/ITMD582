@@ -2,6 +2,10 @@
     --grey:grey;
 }
 
+body{
+    background-color: #5ad2e8;
+}
+
 form{
     width: 900px;
     margin: 0px auto;
@@ -53,4 +57,36 @@ h1{
 
 #range{
     width:26.5%;
+}
+
+/* The media query below was checked in google crome on an iPhone SE and it looks good */
+
+@media (max-width:375px){
+    form{
+        width:230px;
+        overflow: hidden;
+    }
+    #range{
+        width:86%;
+    }
+    #tipPercentage{
+        margin-left: 1%;
+        margin-right: 3%;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+    
+    h3{
+        font-size: 1rem;
+    }
+
+    form{
+        margin: 0px 0px;
+    }
+
+    #formCenter{
+        margin-left: 10%;
+    }
 }
