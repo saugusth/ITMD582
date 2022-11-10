@@ -2,14 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
     <title>Lab 4</title>
 </head>
 <body>
-    <p>Enter a place to see the weather in that location or click the button to see the current location's weather.</p>
-    <input type="text" value="Enter a place">
+    <p>Enter a place to see the weatder in that location or click tde button to see tde current location's weatder.</p>
     <Form>
+        <input type="text" value="Enter a place" id="place">
+        <button>Current Location </button>
+        <table>
+            <tr>
+                <th colspan="2">Weather table</th>
+            </tr>
+            <tr>
+                <td>
+                    <label>Region</label>
+                    <input type="text" id="region">
+                </td>
+                <td>
+                    <label>Day Hour</label>
+                    <input type="text" id="dayHour">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Percipation</label>
+                    <input type="text" id="percip">
+                </td>
+                <td>
+                    <label>Humidity</label>
+                    <input type="text" id="humidity">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Wind</label>
+                    <input type="text" id="wind">
+                </td>
+                <td>
+                    <label>Comment</label>
+                    <input type="text" id="comment">
+                    <img src="" alt="">
+                </td>
+            </tr>
+        </table>
+        <div id="nextSevenDays">
 
+        </div>
     </Form>
     
 </body>
