@@ -16,6 +16,15 @@ table{
     margin-top: 2%;
 }
 
+#table1{
+    visibility: hidden;
+}
+
+#table1 input{
+    border: none;
+    font-size: 1rem;
+}
+
 
 label{
     font-size: 1.5rem;
@@ -24,4 +33,13 @@ label{
 
 th{
     font-size: 1.5rem;
+    background-color: pink;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+#region{
+    width:70%;
 }
