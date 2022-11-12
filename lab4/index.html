@@ -8,48 +8,215 @@
     <title>Lab 4</title>
 </head>
 <body>
-    <p>Enter a place to see the weatder in that location or click tde button to see tde current location's weatder.</p>
+    <p>Enter a place to see the weatder in that location or click the button to see the current location's weather.</p>
     <Form>
         <input type="text" value="Enter a place" id="place">
-        <button>Current Location </button>
-        <table>
-            <tr>
-                <th colspan="2">Weather table</th>
-            </tr>
-            <tr>
-                <td>
-                    <label>Region</label>
-                    <input type="text" id="region">
-                </td>
-                <td>
-                    <label>Day Hour</label>
-                    <input type="text" id="dayHour">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label>Percipation</label>
-                    <input type="text" id="percip">
-                </td>
-                <td>
-                    <label>Humidity</label>
-                    <input type="text" id="humidity">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label>Wind</label>
-                    <input type="text" id="wind">
-                </td>
-                <td>
-                    <label>Comment</label>
-                    <input type="text" id="comment">
-                    <img src="" alt="">
-                </td>
-            </tr>
-        </table>
-        <div id="nextSevenDays">
-
+        <button id="currentLocation">Current Location </button>
+        <div id="table1">
+            <table>
+                <tr>
+                    <th colspan="2">Currnent weather</th>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Region:</label>
+                        <input type="text" id="region">
+                    </td>
+                    <td>
+                        <label>Day Hour:</label>
+                        <input type="text" id="dayHour">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Percipation:</label>
+                        <input type="text" id="percip">
+                    </td>
+                    <td>
+                        <label>Humidity:</label>
+                        <input type="text" id="humidity">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Wind:</label>
+                        <input type="text" id="wind">
+                    </td>
+                    <td>
+                        <label>Comment:</label>
+                        <input type="text" id="comment">
+                        <img src="" alt="" id="icon">
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th colspan="2" id="day1"></th>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="" alt="" id="icon1">
+                    </td>
+                    <td>
+                        <label>Comment:</label>
+                        <input type="text" id="comment1">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Max Temp:</label>
+                        <input type="text" id="max_temp1">
+                    </td>
+                    <td>
+                        <label>Min Temp:</label>
+                        <input type="text" id="min_temp1">
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th colspan="2" id="day2"></th>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="" alt="" id="icon2">
+                    </td>
+                    <td>
+                        <label>Comment:</label>
+                        <input type="text" id="comment2">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Max temp:</label>
+                        <input type="text" id="max_temp2">
+                    </td>
+                    <td>
+                        <label>Min temp:</label>
+                        <input type="text" id="min_temp2">
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th colspan="2" id="day3"></th>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="" alt="" id="icon3">
+                    </td>
+                    <td>
+                        <label>Comment:</label>
+                        <input type="text" id="comment3">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Max temp:</label>
+                        <input type="text" id="max_temp3">
+                    </td>
+                    <td>
+                        <label>Min temp:</label>
+                        <input type="text" id="min_temp3">
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th colspan="2" id="day4"></th>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="" alt="" id="icon4">
+                    </td>
+                    <td>
+                        <label>Comment:</label>
+                        <input type="text" id="comment4">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Max temp:</label>
+                        <input type="text" id="max_temp4">
+                    </td>
+                    <td>
+                        <label>Min temp:</label>
+                        <input type="text" id="min_temp4">
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th colspan="2" id="day5"></th>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="" alt="" id="icon5">
+                    </td>
+                    <td>
+                        <label>Comment:</label>
+                        <input type="text" id="comment5">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Max temp:</label>
+                        <input type="text" id="max_temp5">
+                    </td>
+                    <td>
+                        <label>Min temp:</label>
+                        <input type="text" id="min_temp5">
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th colspan="2" id="day6"></th>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="" alt="" id="icon6">
+                    </td>
+                    <td>
+                        <label>Comment:</label>
+                        <input type="text" id="comment6">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Max temp:</label>
+                        <input type="text" id="max_temp6">
+                    </td>
+                    <td>
+                        <label>Min temp:</label>
+                        <input type="text" id="min_temp6">
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th colspan="2" id="day7"></th>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="" alt="" id="icon7">
+                    </td>
+                    <td>
+                        <label>Comment:</label>
+                        <input type="text" id="comment7">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Max temp:</label>
+                        <input type="text" id="max_temp7">
+                    </td>
+                    <td>
+                        <label>Min temp:</label>
+                        <input type="text" id="min_temp7">
+                    </td>
+                </tr>
+            </table>
         </div>
     </Form>
     
