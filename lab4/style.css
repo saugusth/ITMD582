@@ -43,3 +43,21 @@ p{
 #region{
     width:70%;
 }
+
+@media (max-width: 600px){
+    table{
+        width: 98%;
+    }
+
+    label{
+        font-size: 1rem;
+    }
+
+    #table1 input{
+        font-size: 0.9rem;
+    }
+
+    p{
+        font-size: 1.5rem;
+    }
+}
